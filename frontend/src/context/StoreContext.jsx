@@ -7,7 +7,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url = "http://localhost:4000"
+    const url = "https://booknow-7fjq.onrender.com"
     const [token,setToken] = useState("")
     const [setBookList] = useState({})
 
